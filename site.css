@@ -33,7 +33,7 @@ height: 230px;}
 	
 }
 #leftsidebar {
-	width: 575px;
+	width: 100%;
 	float:left;
 }
 #rightSidebar {
@@ -67,7 +67,7 @@ footer{
 
 background:#FFFFFF;
 
-position:absolute;
+position:relative;
 
 bottom:0;
 
