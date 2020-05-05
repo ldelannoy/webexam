@@ -18,44 +18,38 @@
 			</ul>
 		</nav>
 		
-	<div id="leftsidebar">
-		<fieldset>
-		<form method="post" action="cible.php">
-	<table>
 	
-	<tr>
-	<td> nom :</td>
-	<td><input type="text" name="nom"></td>
-	</tr>
-	<tr>
-	<td> Prénom :</td>
-	<td><input type="text" name="prenom"></td>
-	</tr>
-	<tr>
-	<td> Téléphone :</td>
-	<td><input type="text" name="telephone"></td>
-	</tr>
-	<tr>
-	<td> Message :</td>
-	</tr>
-	<tr>
-	<td><textarea name="nom" rows="8" cols="45">
+	<fieldset>
+	
+	<form method="post" action="cible.php">
+	<div class="contact">
+	<div>
+	<label for="nom">Nom :</label>
+	<input type="text" name="nom" id="nom">
+	</div>
+	<div>
+	<label for="prenom">Prenom :</label>
+	<input type="text" name="prenom" id="prenom">
+	</div>
+	<div>
+	<label for="telephone">Telephone :</label>
+	<input type="text" name="telephone" id="telephone">
+	</div>
+	<div>
+	<label for="message">Message :</label>
+	<textarea name="message" rows="8" cols="45">
 	Taper votre message ici 
-	</textarea></td>
-	</tr>
-	
-
-	
-	<td> <input type="button" value="Envoyer "> </td>
-	<td><input type="reset" value="Remise à zéro "></td>
-	</tr>
-	</table>
+	</textarea>
+	</div>
+	<input type="button" value="Envoyer ">
+	<input type="reset" value="Remise à zéro ">
 	</form>
+	</div>
 	</fieldset>
 	
-	</div>
+
   </body>
   <footer>
 		<strong>Créé par Delannoy Corporation</strong>
 		</footer>
-</html> 
+</html>
