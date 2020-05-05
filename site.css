@@ -1,22 +1,22 @@
+body {
+background-color: white;
+min-height: 100%;
+}
 
-
-body {background-color: white;
-min-height: 100%;}
-#principale{width: 800px;
+#principale {
+width: 800px;
 min-height: 100%;
 background-color: white;
 margin-left:auto;
 margin-right:auto;
+padding: 0 40px 30px 40px;
+}
 
-padding: 0 40px 30px 40px;}
 header {
-	font-size: 100px;
-
-
+font-size: 100px;
 border: 1px solid #000;
-
 background: url(images/boulangerie2.jpg) no-repeat;
-    background-size: auto;
+background-size: auto;
 background-size: 799px 230px;
 height: 230px;}
 #menu ul{
@@ -44,37 +44,75 @@ height: 230px;}
     border-left: #DDDDDD solid 1px;
 }
 
+#menu ul {
+color: red;
+text-align: left;
+text-decoration: none;
+}
+
+#menu ul li {
+text-decoration: none;
+display: inline;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+.contact {
+width: 100%;
+}
+
+.contact label {
+display: inline-block;
+width: 95px;
+}
+
+.contact input {
+display: inline-block;
+margin-bottom: 10px;
+}
+
+.contact textarea {
+display: block;
+}
+
+.contact textarea {
+vertical-align: top;
+}
+
+#rightSidebar {
+width: 220px;
+margin-right: 0;
+min-height: 100%;
+float: right;
+border-left: #DDDDDD solid 1px;
+}
+
 .container {   /* Parent de contenu et connexion */
 display: flex;
-
 }
 
 .contenu {  /* Enfant du container */
 width: 600px;
-
-
 }
 
 .connexion {  /* Enfant du container */
-    width: 200px;
-    border: 2px solid #000;
-    margin-left: 20px;
-    padding: 10px;
-    HEIGHT: 300PX;
+width: 200px;
+border: 2px solid #000;
+margin-left: 20px;
+padding: 10px;
+HEIGHT: 300PX;
 }
 
-footer{
+.contact-flex {
+display: flex;
+justify-content: space-evenly;
+}
 
+footer {
 background:#FFFFFF;
-
-position:relative;
-
-bottom:0;
-
-width:100%;
-
-padding-top:50px;
-
-height:50px;
-
+position: relative;
+bottom: 0;
+width: 100%;
+padding-top: 50px;
+height: 50px;
 }
